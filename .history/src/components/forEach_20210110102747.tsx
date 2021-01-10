@@ -54,10 +54,8 @@ function ForEach() {
 
 const favoriteWords = ['nostalgia', 'hyperbole', 'fervent', 'esoteric', 'serene'];
   const longFavoriteWords = favoriteWords.filter(word => {
-    return word.length > 5;
+    return word.length > 7;
   })
-
-  console.log('longFavoriteWords: ', longFavoriteWords)
   return (
     <div>
       ForEach {joinS} secretMessage: {secretMessage} secretMessageTwo: {secretMessageTwo}

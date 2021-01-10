@@ -54,7 +54,7 @@ function ForEach() {
 
 const favoriteWords = ['nostalgia', 'hyperbole', 'fervent', 'esoteric', 'serene'];
   const longFavoriteWords = favoriteWords.filter(word => {
-    return word.length > 5;
+    return word.length > 6;
   })
 
   console.log('longFavoriteWords: ', longFavoriteWords)

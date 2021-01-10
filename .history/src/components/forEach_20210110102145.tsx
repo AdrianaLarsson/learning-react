@@ -52,12 +52,6 @@ function ForEach() {
   const less = randomNumbers.filter(num => num > 250)
   console.log('Less: ', less)
 
-const favoriteWords = ['nostalgia', 'hyperbole', 'fervent', 'esoteric', 'serene'];
-  const longFavoriteWords = favoriteWords.filter(word => {
-    return word.length > 5;
-  })
-
-  console.log('longFavoriteWords: ', longFavoriteWords)
   return (
     <div>
       ForEach {joinS} secretMessage: {secretMessage} secretMessageTwo: {secretMessageTwo}
