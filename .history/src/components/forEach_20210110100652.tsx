@@ -1,3 +1,4 @@
+import { join } from 'path';
 import React from 'react';
 
 function ForEach() {
@@ -14,7 +15,7 @@ function ForEach() {
 
   const numbers = [1, 2, 3, 4, 5];
   const bigNumbers = numbers.map((number) => {
-    return number * 100;
+    return number * 10;
   });
   console.log("bignumbers : ", bigNumbers);
 
@@ -38,8 +39,9 @@ function ForEach() {
   console.log("animals.join(): ", j);
   const jo = animals.join("");
   console.log("animals.join(''): ", jo);
-  const smallNum  = bigNumbers.map(num => num/100);
-  console.log('smallNumbers: ', smallNum);
+
+  const smallNum  = bigNumbers.map(num => num/100)
+  console.log('smallNumbers: ', smallNum)
 
   return (
     <div>

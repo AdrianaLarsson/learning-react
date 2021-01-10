@@ -38,8 +38,9 @@ function ForEach() {
   console.log("animals.join(): ", j);
   const jo = animals.join("");
   console.log("animals.join(''): ", jo);
-  const smallNum  = bigNumbers.map(num => num/100);
-  console.log('smallNumbers: ', smallNum);
+
+  const smallNum  = bigNumbers.map(num => num/100)
+  console.log('smallNumbers: ', smallNum)
 
   return (
     <div>
