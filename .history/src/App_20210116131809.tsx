@@ -5,7 +5,7 @@ import Functions from './components/functions'
 
 function App() {
 
-  const newNumbers = [1, 3, 5, 7 ]
+  const newNumbers = [1, 3, 5, ,7 ]
 
 const newSum = newNumbers.reduce((accu,currentVal)=>{
   console.log('The value acc: ', accu)

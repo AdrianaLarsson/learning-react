@@ -62,8 +62,8 @@ const favoriteWords = ['nostalgia', 'hyperbole', 'fervent', 'esoteric', 'serene'
   const lessThanTen = jumbledNums.findIndex(num => {
     return num < 10;
   })
-  console.log('lessThanTen: ', lessThanTen);
-  console.log('lessThanTen index 3: ', jumbledNums[3]);
+
+  console.log('lessThanTen: ', lessThanTen)
 
   return (
     <div>

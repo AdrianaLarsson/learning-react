@@ -58,12 +58,11 @@ const favoriteWords = ['nostalgia', 'hyperbole', 'fervent', 'esoteric', 'serene'
   })
   console.log('longFavoriteWords: ', longFavoriteWords);
 
-  const jumbledNums = [123, 25, 78, 5, 9]; 
+  const jumbledNums = [123, 25, 78, 80, 9]; 
   const lessThanTen = jumbledNums.findIndex(num => {
     return num < 10;
   })
   console.log('lessThanTen: ', lessThanTen);
-  console.log('lessThanTen index 3: ', jumbledNums[3]);
 
   return (
     <div>

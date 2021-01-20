@@ -5,7 +5,7 @@ import Functions from './components/functions'
 
 function App() {
 
-  const newNumbers = [1, 3, 5, 7 ]
+  const newNumbers = [1, 3, 5, ,7 ]
 
 const newSum = newNumbers.reduce((accu,currentVal)=>{
   console.log('The value acc: ', accu)
@@ -14,20 +14,14 @@ const newSum = newNumbers.reduce((accu,currentVal)=>{
 },10)
 
 
-const newNumbers2 = [1, 3, 5, 7];
 
-// const newSum2 = newNumbers2.reduce((accumulator, currentValue) => {
-//   console.log('The value of accumulator: ', accumulator);
-//   console.log('The value of currentValue: ', currentValue);
 
-// return accumulator + currentValue
-// }, 10);
+const newSum2 = newNumbers.reduce((accumulator, currentValue) => {
+  console.log('The value of accumulator: ', accumulator);
+  console.log('The value of currentValue: ', currentValue);
 
-const newSum2 = newNumbers2.reduce((acc,curr)=>{
- console.log('The value of accumulator: ', acc);
-console.log('The value of currentValue: ', curr);
-  return acc + curr
-})
+return accumulator + currentValue
+}, 10);
 
 
 console.log(newSum);

@@ -63,7 +63,7 @@ const favoriteWords = ['nostalgia', 'hyperbole', 'fervent', 'esoteric', 'serene'
     return num < 10;
   })
   console.log('lessThanTen: ', lessThanTen);
-  console.log('lessThanTen index 3: ', jumbledNums[3]);
+  console.log('lessThanTen 3: ', lessThanTen[3]);
 
   return (
     <div>

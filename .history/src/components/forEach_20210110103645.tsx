@@ -56,15 +56,10 @@ const favoriteWords = ['nostalgia', 'hyperbole', 'fervent', 'esoteric', 'serene'
   const longFavoriteWords = favoriteWords.filter(word => {
     return word.length > 5;
   })
-  console.log('longFavoriteWords: ', longFavoriteWords);
 
-  const jumbledNums = [123, 25, 78, 5, 9]; 
-  const lessThanTen = jumbledNums.findIndex(num => {
-    return num < 10;
-  })
-  console.log('lessThanTen: ', lessThanTen);
-  console.log('lessThanTen index 3: ', jumbledNums[3]);
+  
 
+  console.log('longFavoriteWords: ', longFavoriteWords)
   return (
     <div>
       ForEach {joinS} secretMessage: {secretMessage} secretMessageTwo: {secretMessageTwo}
