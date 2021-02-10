@@ -43,7 +43,7 @@ console.log('newSum: ', newSum2);
         <ForEach/>
         <Functions/>
         <Objects/>
-        <Ctrl/>
+        <Objects/>
 
       </header>
     </div>

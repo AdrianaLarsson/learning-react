@@ -3,7 +3,7 @@ import './App.css';
 import ForEach from './components/forEach'
 import Functions from './components/functions'
 import Objects from './components/objects'
-import Ctrl from './components/ctrl'
+import Ctrl from './components/ct'
 
 function App() {
 
@@ -43,7 +43,6 @@ console.log('newSum: ', newSum2);
         <ForEach/>
         <Functions/>
         <Objects/>
-        <Ctrl/>
 
       </header>
     </div>
