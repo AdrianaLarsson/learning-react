@@ -6,7 +6,6 @@ import Objects from './components/objects'
 import Ctrl from './components/ctrl'
 import Filter from './components/filter'
 import Arrays from './components/arrays'
-import Reduce from './components/reduce'
 
 
 function App() {

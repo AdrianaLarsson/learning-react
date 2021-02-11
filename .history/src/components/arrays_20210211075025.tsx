@@ -1,0 +1,5 @@
+
+
+function Arrays(params:type) {
+    
+}
