@@ -32,6 +32,7 @@ console.log('The value of currentValue: ', curr);
   return acc + curr
 })
 
+
 console.log(newSum);
 console.log('newSum: ', newSum2);
 
@@ -45,6 +46,7 @@ console.log('newSum: ', newSum2);
         <Objects/>
         <Ctrl/>
         <Filter/>
+
       </header>
     </div>
   );

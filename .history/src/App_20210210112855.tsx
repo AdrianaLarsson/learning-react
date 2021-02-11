@@ -4,7 +4,7 @@ import ForEach from './components/forEach'
 import Functions from './components/functions'
 import Objects from './components/objects'
 import Ctrl from './components/ctrl'
-import Filter from './components/filter'
+import Filter from './components/fil'
 
 function App() {
 
@@ -32,6 +32,7 @@ console.log('The value of currentValue: ', curr);
   return acc + curr
 })
 
+
 console.log(newSum);
 console.log('newSum: ', newSum2);
 
@@ -44,7 +45,7 @@ console.log('newSum: ', newSum2);
         <Functions/>
         <Objects/>
         <Ctrl/>
-        <Filter/>
+
       </header>
     </div>
   );
